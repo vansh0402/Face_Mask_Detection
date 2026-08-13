@@ -7,7 +7,7 @@ import numpy as np
 facemodel = cv2.CascadeClassifier("face.xml")
 
 # Load face detection model
-maskmodel = load_model('C://PROJECTS//Face_Mask_Detection//model//Mask.h5')
+maskmodel = load_model('Mask.h5')
 
 #Face Mask detection Function
 def detect_mask(frame): 
